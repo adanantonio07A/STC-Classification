@@ -1,0 +1,107 @@
+sudo apt update
+sudo apt install curl
+sudo apt install openssh-server
+sudo systemctl enable ssh
+sudo systemctl start ssh
+sudo apt install python3-pip
+sudo apt install python3.8
+python3.8 -m pip uninstall matplotlib
+python3.8 -m pip install --upgrade matplotlib
+python3.8 -m pip install --upgrade numpy
+python3.8 -m pip install --upgrade Cython
+python3.8 -m pip install --upgrade numpy
+sudo apt install python3.8-matplotlib
+sudo apt install python3-seaborn
+sudo apt install python3-opencv
+sudo apt install python3-pillow
+sudo apt install python3-dev python3-pip
+whereis cuda-repo*
+find cuda-repo*
+find cuda*
+sudo apt-cache show nvidia-jetpack
+sudo apt-cache show nvidia-cuda
+sudo apt-cache show nvidia-toolkit
+sudo apt-cache show cuda-toolkit
+sudo apt-get install python3-numpy swig python3-dev python3-pip python3-wheel -y
+sudo nvpmodel-m 0
+sudo gedit
+sudo gedit /etc/profile
+source /etc/profile
+echo $JAVA_HOME
+echo $PATH
+sudo apt install locate
+locate -i cuda
+locate -i nvcc
+locate -i tensorflow
+cat/etc/lsb-release
+sudo apt install ./sdkmanager_[version]-[build#]_amd64.deb
+pip3 install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-2.6.0-cp36-cp36m-manylinux2010_x86_64.whl
+sudo pip3 install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-2.6.0-cp36-cp36m-manylinux2010_x86_64.whl
+pip3 install --upgrade tensorflow
+sudo su
+wget install https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-2.6.0-cp36-cp36m-manylinux2010_x86_64.whl
+pip3 install tensorflow_gpu-2.6.0-cp36-cp36m-manylinux2010_x86_64.whl
+python3 -m pip3 install --upgrade pip3
+sudo apt update
+sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev liblapack-dev libblas-dev gfortran
+sudo apt-get install python3-pip
+sudo pip3 install -U pip testresources setuptools==49.6.0
+sudo pip3 install -U --no-deps numpy==1.19.4 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf pybind11 cython pkgconfig packaging
+sudo env H5PY_SETUP_REQUIRES=0 pip3 install -U h5py==3.1.0
+sudo pip3 install -U h5py==3.1.0
+cat /etc/nv_tegra_release
+sudo apt-cache show nvidia-jetpack
+sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v46 tensorflow
+python3 -m pip install scikit-learn==0.24.2
+python3 -m pip uninstall scikit-learn==0.24.2
+sudo python3 -m pip uninstall scikit-learn==0.24.2
+python3 -m pip install scikit-learn==0.24.2
+export LD_PRELOAD='/PATH/TO/libgomp-d22c30c5.so.1.0.0'
+export LD_PRELOAD='/usr/local/lib/python3.6/dist-packages/scikit_learn.libs/libgomp-d22c30c5.so.1.0.0'
+sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v46 tensorflow==2.6.2+nv21.12
+python3 -m pip install h5py==3.1.0
+sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v46 tensorflow==2.10.0+nv21.12
+sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v46 tensorflow==2.6.0+nv21.11
+sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v46 tensorflow
+python3 -m pip install tf-nightly
+python3 -m pip install tensorflow-nightly
+python3 -m pip3 install tf-nightly
+python3 -m pip install tensorflow==2.3
+python3 git clone https://github.com/tensorflow/tensorflow==3.2
+python3 -m wget --no-check-certificate https://github.com/bazelbuild/bazel/releases/download/0.10.0/bazel-0.10.0-dist.zip
+python3 -m pip install wget
+python3 -m wget --no-check-certificate https://github.com/bazelbuild/bazel/releases/download/0.10.0/bazel-0.10.0-dist.zip
+python3 -m wget https://github.com/bazelbuild/bazel/releases/download/0.10.0/bazel-0.10.0-dist.zip
+cat /etc/nv_tegra_release
+sudo apt-cache show nvidia-jetpack
+sudo pip3 install --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v461 tensorflow
+sudo apt install python3.8
+python3.8 -m pip install --upgrade pip
+python3.8 -m pip install scikit
+python3.8 -m pip install sklearn
+sudo apt install python3.8/six
+sudo apt install python3.8-six
+sudo apt install python38-six
+python3.8 -m pip install six
+python3.8 -m pip install pandas
+python3.8 -m pip uninstall pandas
+sudo python3.8 -m pip uninstall pandas
+python3.8 -m pip install pandas
+python3.8 -m pip uninstall matplotlib
+sudo python3.8 -m pip uninstall matplotlib
+python3.8 -m pip install matplotlib
+sudo python3.8 -m pip uninstall seaborn
+python3.8 -m pip install seaborn
+python3.8 -m pip install opencv-python
+python3.8 -m pip install tensorflow==2.7
+python3.8 -m pip install --upgrade tensorflow
+python3.8 -m pip install python3-testresources
+sudo python3.8 -m pip install python3-testresources
+sudo apt install python3-testresources
+python3.8 -m pip install --upgrade tensorflow
+python3.8 -m pip list
+python3.8 --version
+cat /etc/debian_version
+uname
+lsb_release
+lsb_release -a
